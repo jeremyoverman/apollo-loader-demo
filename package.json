@@ -8,7 +8,8 @@
     "build": "vite build && tsc",
     "serve": "vite preview",
     "test": "vitest run",
-    "generate": "graphql-codegen"
+    "generate": "graphql-codegen",
+    "postinstall": "graphql-codegen"
   },
   "dependencies": {
     "@apollo/client": "^3.13.8",
